@@ -1,0 +1,31 @@
+{
+    "theme_color": "#d40303",
+    "background_color": "#f8e8e6",
+    "display": "browser",
+    "scope": "/",
+    "start_url": "/",
+    "name": "eindopdracht module 7 vijfhart",
+    "short_name": "mod7vijfhart",
+    "icons": [
+        {
+            "src": "/icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/icon-256x256.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        },
+        {
+            "src": "/icon-384x384.png",
+            "sizes": "384x384",
+            "type": "image/png"
+        },
+        {
+            "src": "/icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
