@@ -1,15 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Module 7 eindopdracht</title>
-    <link rel="manifest" href="manifest/manifest.webmanifest">
-</head>
-<body>
+    <link rel="manifest" href="manifest/manifest.webmanifest" />
+    <script>
+      if ("serviceWorker" in navigator) {
+        navigator.serviceWorker.register("/sw.js");
+      }
+    </script>
+  </head>
+  <body>
     <h1>Dit is een header</h1>
     <p>En hier staat tekst van de pagina</p>
-</body>
+  </body>
 </html>
 
 <!-- View this repository at: https://github.com/yubbink/vijfharttraining -->

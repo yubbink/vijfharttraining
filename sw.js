@@ -1,5 +1,1 @@
-if ('serviceWorker' in navigator) {
-
-    navigator.serviceWorker.register('/sw.js');
-  
-  }
+/* Dit is de service worker */
